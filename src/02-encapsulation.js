@@ -1,3 +1,4 @@
+'use strict';
 class Voiture{
     constructor(marque,modele,annee,couleur){
         this._marque = marque
