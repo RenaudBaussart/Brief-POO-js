@@ -12,13 +12,13 @@ class Chien extends Animal{
         console.log(this._nom +' aboie!');
     }
     get nom(){
-        return this._nom
+        return this._nom;
     }
 }
 class Chat extends Animal{
     constructor(nom){
         super(Animal);
-        this._nom = nom
+        this._nom = nom;
     }
     faireDuBruit(){
         console.log(this._nom +' miaule!');
